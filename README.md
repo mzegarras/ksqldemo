@@ -93,6 +93,7 @@ group by originId
 emit changes;
 
 select * from cta_transactions_tb emit changes;
+SELECT * FROM transactions_st where TRANSACTIONID='3' EMIT CHANGES;
 ```
 
 ## 8 Transacciones por canal
