@@ -1,5 +1,8 @@
 # KSQL
 
+![Architecture](/resources/ksqldb-architecture.png?raw=true "Employee Data title")
+
+
 ## 1 Clean
 ```bash
 cd /Users/manuelzegarra/Proyectos/Presentaciones/ksql
