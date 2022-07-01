@@ -1,0 +1,133 @@
+{
+  "namespace": "cloud.csonic.types.events",
+  "type": "record",
+  "name": "TransactionEvent",
+  "fields": [
+    {
+      "name": "microservice",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "ms-pagos"
+            ]
+            }
+          }
+    },
+    {
+      "name": "originId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "191000001",
+            "191000002",
+            "191000003",
+            "191000004",
+            "191000005",
+            "191000006",
+            "191000007",
+            "191000008",
+            "191000009",
+            "191000010",
+            "191000011",
+            "191000012",
+            "191000013",
+            "191000014",
+            "191000015",
+            "191000016",
+            "191000017",
+            "191000018",
+            "191000019",
+            "191000020"
+          ]
+        }
+      }
+    },
+    {"name": "destinationId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "192000001",
+            "192000002",
+            "192000003",
+            "192000004",
+            "192000005",
+            "192000006",
+            "192000007",
+            "192000008",
+            "192000009",
+            "192000010",
+            "192000011",
+            "192000012",
+            "192000013",
+            "192000014",
+            "192000015",
+            "192000016",
+            "192000017",
+            "192000018",
+            "192000019",
+            "192000020"
+          ]
+        }
+      }
+    },
+    {
+      "name": "transactionId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "iteration": {
+            "start": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "amount",
+      "type":{
+        "type":"double",
+        "arg.properties":{
+          "range":{
+            "min":1.0,
+            "max":2000.0
+          }
+        }
+      }
+    },
+    {"name": "created",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis",
+        "arg.properties":{
+          "range":{
+            "min":1487715775521,
+            "max":1519273364600
+          }
+        }
+      }
+    },
+    {"name": "channel", "type": {
+      "type": "string",
+      "arg.properties": {
+        "options": [
+          "HBK",
+          "YP"
+        ]
+      }
+    }
+    },
+    {"name": "status", "type": {
+      "type": "string",
+      "arg.properties": {
+        "options": [
+          "CREATED",
+          "CANCELED",
+          "APPROVED"
+        ]
+      }
+    }}
+  ]
+}
+

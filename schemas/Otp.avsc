@@ -1,0 +1,32 @@
+{
+  "namespace": "cloud.csonic.types.events",
+  "type": "record",
+  "name": "OtpEvent",
+  "fields": [
+    {
+      "name": "microservice",
+      "type": "string"
+    },
+    {
+      "name": "code",
+      "type": "string"
+    },
+    {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "created",
+      "type":
+      {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "channel",
+      "type": "string"
+    }
+  ]
+}
+
