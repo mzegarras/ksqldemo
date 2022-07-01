@@ -112,9 +112,9 @@
       "arg.properties": {
         "options": [
           "APP1",
-          "YAPE",
-          "NHBK",
-          "PEVE"
+          "APP2",
+          "APP3",
+          "APP4"
         ]
       }
     }

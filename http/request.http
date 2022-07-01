@@ -3,11 +3,11 @@ Content-Type: application/json
 
 {
   "transaction": {
-    "originId": "191002",
+    "originId": "191003",
     "destinationId": "191002",
-    "amount": 3,
+    "amount": 7,
     "created": "2022-05-10T23:13:00-05:00",
-    "transactionId": "3",
+    "transactionId": "7",
     "channel": "NHBK"
   }
 }
