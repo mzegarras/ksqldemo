@@ -1,4 +1,4 @@
-# KSQL
+# KSQL Arquitectura
 
 ![Architecture](/resources/ksqldb-architecture.png?raw=true "Employee Data title")
 
