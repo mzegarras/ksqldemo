@@ -1,11 +1,12 @@
-# KSQL Arquitectura
+# KSQLDB
 
-![Architecture](/resources/ksqldb-architecture.png?raw=true "Employee Data title")
+![Architecture](/resources/ksqldb-architecture.png?raw=true "Arquitectura")
 
+![Caso de uso](/resources/transactions.png?raw=true "Arquitectura")
 
 ## 1 Clean
 ```bash
-cd /Users/manuelzegarra/Proyectos/Presentaciones/ksql
+cd ./ksql
 docker-compose down
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
